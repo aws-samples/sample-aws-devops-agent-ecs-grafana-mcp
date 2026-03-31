@@ -1,5 +1,13 @@
 # DevOps Agent + ECS + Grafana MCP Tutorial
 
+## Update
+
+With the General Availability of AWS DevOps Agent, Grafana integration is now natively supported.
+https://aws.amazon.com/jp/blogs/mt/announcing-general-availability-of-aws-devops-agent/
+
+As a result, the setup described in "Step 2: Deploy Grafana MCP Server on AgentCore Runtime" and "Step 3: Connect MCP Server to DevOps Agent" can now be accomplished by following the official documentation:
+https://docs.aws.amazon.com/devopsagent/latest/userguide/connecting-telemetry-sources-connecting-grafana.html
+
 ## Overview
 
 This tutorial walks through the end-to-end process of using AWS DevOps Agent with a Grafana MCP server to investigate ECS environment metrics.
